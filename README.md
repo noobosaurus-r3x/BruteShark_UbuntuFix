@@ -1,3 +1,35 @@
+# BruteShark - Ubuntu Fix Fork 🦈  
+
+---
+
+## **🚀 About This Fork**  
+This is a **fixed and updated version** of BruteShark, optimized to work on **Ubuntu-based systems**.  
+The original project is maintained by [odedshimon](https://github.com/odedshimon/BruteShark).  
+
+This fork removes **Windows-only components** (BruteSharkDesktop) and fixes **compatibility issues** with Linux distributions.  
+
+### **🛠 Key Fixes & Updates**
+✔ **Fixed ICU dependency errors on Linux**  
+✔ **Updated `SharpPcap` from `6.0.0` to `6.3.0`** in:  
+  - `BruteShark/PcapProcessor/PcapProcessor.csproj`  
+  - `BruteShark/PcapProcessorTest/PcapProcessorTest.csproj`  
+✔ **Removed BruteSharkDesktop** (Windows GUI) → Only CLI version is maintained  
+✔ **Built as a fully portable, self-contained binary** (no .NET installation required)  
+✔ **Tested & working on Ubuntu and Debian-based systems**  
+
+---
+
+## **📥 Download & Install the Fixed Release**  
+Run the following to get the latest **BruteSharkCLI**:  
+```bash
+wget https://github.com/noobosaurus-r3x/BruteShark_UbuntuFix/releases/latest/download/BruteSharkCli
+chmod +x BruteSharkCli
+./BruteSharkCli -h
+```
+---
+# 📌 Original README form by [odedshimon](https://github.com/odedshimon/BruteShark) Below
+
+
 ![](readme_media/BruteSharkBanner.png)
 
 ![badge](https://github.com/odedshimon/BruteShark/workflows/Test%20&%20Build/badge.svg) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/odedshimon/bruteshark) [![Github All Releases](https://img.shields.io/github/downloads/odedshimon/bruteshark/total.svg)]() [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UWUNVCJVPNTUY&source=url) [![Tweet](https://img.shields.io/twitter/url/https/github.com/tterb/hyde.svg?style=social)](https://twitter.com/intent/tweet?text=Check+out+Brute-shark%21+A+free+open+source+PCAP+analyzer+tool+for+security+researchers%3A+https%3A%2F%2Fgithub.com%2Fodedshimon%2FBruteShark) ![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/BruteShark?style=social)       
